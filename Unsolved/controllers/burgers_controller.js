@@ -16,14 +16,14 @@ router.get('/', (req, res) => {
   });
 });
 
-router.post('/api/burger', (req, res) => {
+router.post('/api/burgers', (req, res) => {
   burger.create(['name', 'devoured'], [req.body.name, req.body.devoured], (result) => {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });
   });
 });
 
-router.put('/api/burger/:id', (req, res) => {
+router.put('/api/burgers/:id', (req, res) => {
   const condition = `id = ${req.params.id}`;
 
   console.log('condition', condition);

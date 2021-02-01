@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       };
 
       // Send POST request to create a new quote
-      fetch('/api/burger', {
+      fetch('/api/burgers', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
