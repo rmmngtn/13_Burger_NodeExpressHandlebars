@@ -7,10 +7,10 @@ const burger = {
   },
   // The variables cols and vals are arrays.
   create(cols, vals, cb) {
-    orm.create('burgers', cols, vals, (res) => cb(res));
+    orm.create('burger', cols, vals, (res) => cb(res));
   },
   update(objColVals, condition, cb) {
-    orm.update('burgers', objColVals, condition, (res) => cb(res));
+    orm.update('burger', objColVals, condition, (res) => cb(res));
   },
 };
 
