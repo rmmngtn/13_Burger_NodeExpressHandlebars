@@ -59,13 +59,8 @@ npm test
 ​
 ## Screenshots
 
-![screenshot1]()
+![screenshot1](./public/assets/images/screenshotBurg.png)
 
-![screenshot2]()
-
-![screenshot3]()
-
-![screenshot4]()
 
 ### Deployed App Heroku Link
 <>
