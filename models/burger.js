@@ -12,6 +12,7 @@ const burger = {
   update(objColVals, condition, cb) {
     orm.update('burgers', objColVals, condition, (res) => cb(res));
   },
+
 };
 
 // Export the database functions for the controller (burgers_controller.js).
